@@ -32,7 +32,7 @@
 <#if (executionData.argstring)?has_content>
            {
                "title": "Options",
-               "value": "${executionData.argstring}",
+               "value": "${executionData.argstring?replace('"', '\\"')}",
                "short": false
            }
 </#if>
