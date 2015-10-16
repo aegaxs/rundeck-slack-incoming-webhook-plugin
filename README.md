@@ -1,3 +1,6 @@
+fork comment: This fork includes a more concise template for messages posted to Slack.
+
+
 rundeck-slack-incoming-webhook-plugin
 ======================
 
